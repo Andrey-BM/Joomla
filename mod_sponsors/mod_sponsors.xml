@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="module" version="3.1" client="site" method="upgrade">
+    <name>Модуль показа спонсоров</name>
+    <author>UONII</author>
+    <creationDate>Jan 2016</creationDate>
+    <copyright>(C) UONII</copyright>
+    <license>GNU General Public License version 2 or later</license>
+    <authorEmail>UONII@uonii.com</authorEmail>
+    <authorUrl>www.uonii.com</authorUrl>
+    <version>3.0.0</version>
+    <description></description>
+    <files>
+        <filename module="mod_sponsors">mod_sponsors.php</filename>
+        <folder>tmpl</folder>
+        <filename>mod_sponsors.xml</filename>
+        <filename>index.html</filename>        
+        <filename>style_sponsors.css</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="spn_text" type="url" default="#" label="Enter text" description="" size="40" />
+               <field type="spacer" br="true" />
+               <field name="spn_img_1" type="media" directory="sponsors_img" />
+               <field name="spn_url_1" type="url" default="#" label="Enter a URL" description="" size="10" />
+               <field type="spacer" br="true" />
+                <field name="spn_img_2" type="media" directory="sponsors_img" />
+               <field name="spn_url_2" type="url" default="#" label="Enter a URL" description="" size="10" />
+               <field type="spacer" br="true" />
+                <field name="spn_img_3" type="media" directory="sponsors_img" />
+               <field name="spn_url_3" type="url" default="#" label="Enter a URL" description="" size="10" />
+               <field type="spacer" br="true" />
+                <field name="spn_img_4" type="media" directory="sponsors_img" />
+               <field name="spn_url_4" type="url" default="#" label="Enter a URL" description="" size="10" />
+               <field type="spacer" br="true" />
+                <field name="spn_img_5" type="media" directory="sponsors_img" />
+               <field name="spn_url_5" type="url" default="#" label="Enter a URL" description="" size="10" />
+               <field type="spacer" br="true" />
+                <field name="spn_img_6" type="media" directory="sponsors_img" />
+               <field name="spn_url_6" type="url" default="#" label="Enter a URL" description="" size="10" />
+               <field type="spacer" br="true" />
+                <field name="spn_img_7" type="media" directory="sponsors_img" />
+               <field name="spn_url_7" type="url" default="#" label="Enter a URL" description="" size="10" />
+               <field type="spacer" br="true" />
+                <field name="spn_img_8" type="media" directory="sponsors_img" />
+               <field name="spn_url_8" type="url" default="#" label="Enter a URL" description="" size="10" />
+               <field type="spacer" br="true" />
+                <field name="spn_img_9" type="media" directory="sponsors_img" />
+               <field name="spn_url_9" type="url" default="#" label="Enter a URL" description="" size="10" />
+               <field type="spacer" br="true" />
+                <field name="spn_img_10" type="media" directory="sponsors_img" />
+               <field name="spn_url_10" type="url" default="#" label="Enter a URL" description="" size="10" />
+               <field type="spacer" br="true" />
+                <field name="spn_img_11" type="media" directory="sponsors_img" />
+               <field name="spn_url_11" type="url" default="#" label="Enter a URL" description="" size="10" />
+               <field type="spacer" br="true" />
+                <field name="spn_img_12" type="media" directory="sponsors_img" />
+               <field name="spn_url_12" type="url" default="#" label="Enter a URL" description="" size="10" />
+               <field type="spacer" br="true" />
+                <field name="spn_img_13" type="media" directory="sponsors_img" />
+               <field name="spn_url_13" type="url" default="#" label="Enter a URL" description="" size="10" />
+               <field type="spacer" br="true" />
+                <field name="spn_img_14" type="media" directory="sponsors_img" />
+               <field name="spn_url_14" type="url" default="#" label="Enter a URL" description="" size="10" />
+               <field type="spacer" br="true" />
+                <field name="spn_img_15" type="media" directory="sponsors_img" />
+               <field name="spn_url_15" type="url" default="#" label="Enter a URL" description="" size="10" />
+               <field type="spacer" br="true" />
+                <field name="spn_img_16" type="media" directory="sponsors_img" />
+               <field name="spn_url_16" type="url" default="#" label="Enter a URL" description="" size="10" />
+               <field type="spacer" br="true" />
+                
+            </fieldset>
+            <fieldset name="advanset">
+                <field name="moduleclass_sfx" type="text" default="" label="Дополнительный Класс Модуля" description="Suffix to append to the CSS class atribute of this module"/>
+            </fieldset>
+        </fields>      
+    </config>  
+</extension>
+
+
+
+
+
+
+
+
+
+

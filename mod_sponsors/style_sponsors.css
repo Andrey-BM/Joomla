@@ -1,0 +1,88 @@
+@charset "UTF-8"
+#spn_text{
+    color: aliceblue; 
+    font-size: 10px;
+    font-family: 'Lucida Console', Monaco, monospace;
+}    
+div.spn_text{
+    text-align: center;
+    color: aliceblue;
+    font-size: 10px;
+    font-family: 'Lucida Console', Monaco, monospace;
+}
+    
+div.sponsors {
+    height: 190px;
+    background-color: #1692d2; 
+
+}
+    
+div.spn_body {
+    width: 970px;
+    height: 185px;
+    background-color: #1692d2;
+    float: center;
+    padding-top: 10px;
+
+}
+div.spn1 {
+    width: 118px;
+    height: 79px;
+    background-color: aliceblue;
+    float: left;
+    margin-left: 3.7px;
+}
+div.spn1:hover {
+    opacity: 0.5;
+    width: 118px;
+    height: 79px;
+    background-color: aliceblue;
+    float: left;
+    margin-left: 3.7px;
+}
+div.spn1_1 {
+    width: 118px;
+    height: 79px;
+    background-color: aliceblue;
+    float: left;   
+}
+div.spn1_1:hover {
+    opacity: 0.5;
+    width: 118px;
+    height: 79px;
+    background-color: aliceblue;
+    float: left;   
+}
+
+div.spn2 {
+    width: 118px;
+    height: 79px;
+    background-color: aliceblue;
+    float: left;
+    margin-left: 3.7px;
+    margin-top: 3.7px;
+}
+div.spn2:hover {
+    opacity: 0.5;
+    width: 118px;
+    height: 79px;
+    background-color: aliceblue;
+    float: left;
+    margin-left: 3.7px;
+    margin-top: 3.7px;
+}
+div.spn2_1 {
+    width: 118px;
+    height: 79px;
+    background-color: aliceblue;
+    float: left;
+    margin-top: 3.7px;
+}
+div.spn2_1:hover {
+    opacity: 0.5;
+    width: 118px;
+    height: 79px;
+    background-color: aliceblue;
+    float: left;
+    margin-top: 3.7px;
+}
